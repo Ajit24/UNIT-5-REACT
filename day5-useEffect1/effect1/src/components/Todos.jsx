@@ -5,15 +5,24 @@ export const Todos = ()=>{
 
     const [counter2, setCounter2] = useState(0);
 
+    const [data, setData] = useState([]);
+
     console.log("Before effect");
 
+
     useEffect(() => {
-        console.log("inside effect 1");
+        fetch ("").then(res => {
+            setData(res)
+        })
     }, []);
+
+    // useEffect(() => {
+    //     console.log("inside effect 1");
+    // }, [counter1]);
 
     useEffect(() => {
         console.log("inside effect 2");
-    });
+    }, [counter2]);
 
     console.log("After effect");
     return (

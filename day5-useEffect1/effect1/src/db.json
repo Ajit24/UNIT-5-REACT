@@ -1,3 +1,14 @@
 {
-    "groceries": []
+  "groceries": [
+    {
+      "title": "milk",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "milk",
+      "purchased": false,
+      "id": 2
+    }
+  ]
 }

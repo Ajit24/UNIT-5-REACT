@@ -1,5 +1,4 @@
 import React, {useState, useEffect, useRef} from "react";
-//import Table from "./Table"
 import './Form.css'
 const Form = () =>{
     const ref = useRef(null)
